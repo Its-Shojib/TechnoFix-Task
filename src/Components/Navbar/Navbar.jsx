@@ -46,20 +46,20 @@ const Navbar = () => {
                         {lists}
                     </ul>
                 </div>
-                <a className="btn btn-ghost text-2xl">Miro</a>
+                <a className="btn btn-ghost text-2xl font-Oleo">Miro</a>
                 <div className="hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1 flex items-center gap-2 font-medium">
+                    <ul className="menu menu-horizontal px-1 flex items-center gap-2 font-medium text-gray-600">
                         {lists}
                     </ul>
                 </div>
             </div>
 
             <div className="navbar-end">
-                <p className="flex item-center gap-2 justify-center px-4"><TbWorld className="text-2xl" /> EN</p>
-                <ul className="menu menu-horizontal flex items-center gap-3 font-medium px-3">
-                    <li>Contact</li>
-                    <li>Sales</li>
-                    <li>Login</li>
+                <p className="flex item-center gap-2 justify-center px-4 cursor-pointer"><TbWorld className="text-2xl" /> EN</p>
+                <ul className="menu menu-horizontal flex items-center gap-3 font-medium px-3 text-gray-600">
+                    <li className="cursor-pointer">Contact</li>
+                    <li className="cursor-pointer">Sales</li>
+                    <li className="cursor-pointer">Login</li>
                 </ul>
                 <a href="#">
                     <button className="text-white bg-[#4262FF] rounded-full px-4 py-2">
