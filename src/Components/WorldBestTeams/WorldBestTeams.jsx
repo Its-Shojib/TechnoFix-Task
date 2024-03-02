@@ -4,12 +4,12 @@ import img3 from '../../assets/WorldBestTeams/Mask_group-1.png.jpg'
 
 const WorldBestTeams = () => {
     return (
-        <div className="w-full md:w-10/12 mx-auto my-20">
+        <div className="w-full md:w-10/12 mx-auto my-20 bg-white">
             <div>
                 <h1 className="text-center text-[#050038] font-bold text-4xl">{`Loved by the world's best teams`}</h1>
                 <p className="text-[#4262FF] px-4 py-2 rounded-full border border-blue-600 max-w-[230px] mx-auto my-5 font-semibold">See all customer stories →</p>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 my-10">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
                 <div className="space-y-5">
                     <h1 className="text-[#050038] text-4xl">
                         <span className="font-bold">Vm</span>ware</h1>
@@ -22,7 +22,7 @@ const WorldBestTeams = () => {
                         </div>
                     </div>
                 </div>
-                
+
                 <div className="space-y-5">
                     <h1 className="text-[#050038] text-4xl font-bold">DocuSign</h1>
                     <p className="pb-20">“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>

@@ -6,7 +6,7 @@ const BrainStorm = () => {
         <div className='w-full md:w-10/12 mx-auto my-10'>
             <h1 className='text-[#050038] text-4xl font-bold my-10'>Built for the way you work</h1>
             <div>
-                <ul className='flex flex-wrap justify-between gap-5 text-sm'>
+                <ul className='flex flex-wrap justify-start gap-5 text-sm'>
                     <li className='bg-gray-300 py-2 px-3 rounded-full cursor-pointer'>Brainstorming</li>
                     <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Diagramming</li>
                     <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Meetings & Workshops</li>
