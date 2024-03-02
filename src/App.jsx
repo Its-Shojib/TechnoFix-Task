@@ -7,6 +7,7 @@ import ConnectTools from "./Components/ConnectTools/ConnectTools";
 import HybridWork from "./Components/HybridWork/HybridWork";
 import Navbar from "./Components/Navbar/Navbar";
 import WorkWay from "./Components/WorkWays/WorkWay";
+import WorldBestTeams from "./Components/WorldBestTeams/WorldBestTeams";
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <WorkWay />
       <BrainStorm />
       <AllTeams />
+      <WorldBestTeams />
     </div>
   );
 };
