@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner/Banner";
+import BrainStorm from "./Components/BrainStorm/BrainStorm";
 import Collaborate from "./Components/Collaborate/Collaborate";
 import Company from "./Components/Company/Company";
 import ConnectTools from "./Components/ConnectTools/ConnectTools";
@@ -18,6 +19,7 @@ const App = () => {
       <HybridWork />
       <ConnectTools />
       <WorkWay />
+      <BrainStorm />
     </div>
   );
 };
