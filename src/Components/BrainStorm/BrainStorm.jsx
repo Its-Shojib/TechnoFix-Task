@@ -7,13 +7,13 @@ const BrainStorm = () => {
             <h1 className='text-[#050038] text-4xl font-bold my-10'>Built for the way you work</h1>
             <div>
                 <ul className='flex flex-wrap justify-between gap-5 text-sm'>
-                    <li className='bg-gray-300 py-2 px-3 rounded-full'>Brainstorming</li>
-                    <li className='bg-gray-100 py-2 px-3 rounded-full'>Diagramming</li>
-                    <li className='bg-gray-100 py-2 px-3 rounded-full'>Meetings & Workshops</li>
-                    <li className='bg-gray-100 py-2 px-3 rounded-full'>Scrum Events</li>
-                    <li className='bg-gray-100 py-2 px-3 rounded-full'>Mapping</li>
-                    <li className='bg-gray-100 py-2 px-3 rounded-full'>Research & Design</li>
-                    <li className='bg-gray-100 py-2 px-3 rounded-full'>Strategic Planning</li>
+                    <li className='bg-gray-300 py-2 px-3 rounded-full cursor-pointer'>Brainstorming</li>
+                    <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Diagramming</li>
+                    <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Meetings & Workshops</li>
+                    <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Scrum Events</li>
+                    <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Mapping</li>
+                    <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Research & Design</li>
+                    <li className='bg-gray-100 py-2 px-3 rounded-full cursor-pointer'>Strategic Planning</li>
                 </ul>
             </div>
             <div className='flex flex-col md:flex-row justify-center gap-10 mt-8'>

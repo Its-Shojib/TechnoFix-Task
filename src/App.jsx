@@ -1,3 +1,4 @@
+import AllTeams from "./Components/AllTeams/AllTeams";
 import Banner from "./Components/Banner/Banner";
 import BrainStorm from "./Components/BrainStorm/BrainStorm";
 import Collaborate from "./Components/Collaborate/Collaborate";
@@ -20,6 +21,7 @@ const App = () => {
       <ConnectTools />
       <WorkWay />
       <BrainStorm />
+      <AllTeams />
     </div>
   );
 };
