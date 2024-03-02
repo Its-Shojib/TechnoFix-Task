@@ -4,6 +4,7 @@ import Company from "./Components/Company/Company";
 import ConnectTools from "./Components/ConnectTools/ConnectTools";
 import HybridWork from "./Components/HybridWork/HybridWork";
 import Navbar from "./Components/Navbar/Navbar";
+import WorkWay from "./Components/WorkWays/WorkWay";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Collaborate />
       <HybridWork />
       <ConnectTools />
+      <WorkWay />
     </div>
   );
 };
