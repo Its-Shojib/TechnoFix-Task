@@ -5,7 +5,7 @@ import img2 from '../../assets/Frame.png'
 
 const Banner = () => {
     return (
-        <div className='w-full md:w-10/12 mx-auto flex justify-center items-center gap-10 mt-10'>
+        <div className='w-full md:w-10/12 mx-auto flex flex-col md:flex-row justify-center items-center gap-10 mt-10'>
             <div className='max-w-[450px] space-y-5 flex-1'>
                 <h1 className='text-5xl font-bold text-[#050038]'>Take ideas from better to best</h1>
                 <p className='max-w-[400px] font-semibold'>Miro is your {`team's`} visual platform to connect, collaborate, and create — together.</p>

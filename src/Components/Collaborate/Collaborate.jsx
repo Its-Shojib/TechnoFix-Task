@@ -5,8 +5,8 @@ const Collaborate = () => {
     return (
         <div className="w-full md:w-10/12 mx-auto my-20">
             <div className="relative">
-                <h1 className="text-center text-[#050038] font-bold text-5xl max-w-[550px] mx-auto">Collaborate without constraints</h1>
-                <p className="bg-yellow-400 text-black absolute px-4 rounded-lg font-bold uppercase right-40 -top-5 transform rotate-[12deg] text-sm">Your Idea Starts Here</p>
+                <h1 className="text-center text-[#050038] font-bold text-4xl md:text-5xl max-w-[550px] mx-auto">Collaborate without constraints</h1>
+                <p className="bg-yellow-400 text-black absolute px-4 rounded-lg font-bold uppercase  right-0 md:right-40 -top-5 transform rotate-[12deg] text-sm">Your Idea Starts Here</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 my-10">
                 <div className="space-y-5">
