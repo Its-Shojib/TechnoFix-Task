@@ -1,4 +1,5 @@
 import Banner from "./Components/Banner/Banner";
+import Collaborate from "./Components/Collaborate/Collaborate";
 import Company from "./Components/Company/Company";
 import Navbar from "./Components/Navbar/Navbar";
 
@@ -10,6 +11,7 @@ const App = () => {
       <Navbar />
       <Banner />
       <Company />
+      <Collaborate />
     </div>
   );
 };

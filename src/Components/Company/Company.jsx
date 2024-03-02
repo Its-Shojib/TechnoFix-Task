@@ -7,14 +7,14 @@ import img5 from '../../assets/okta.svg.jpg'
 
 const Company = () => {
     return (
-        <div className='w-full md:w-10/12 mx-auto my-28'>
+        <div className='w-full md:w-10/12 mx-auto my-32'>
             <p className='text-center text-gray-600 mb-8'>Trusted by 45M+ users</p>
             <div className='grid grid-cols-3 md:grid-cols-5 gap-10'>
-                <img src={img1} alt="" />
-                <img src={img2} alt="" />
-                <img src={img3} alt="" />
-                <img src={img4} alt="" />
-                <img src={img5} alt="" />
+                <img className='cursor-pointer' src={img1} alt="" />
+                <img className='cursor-pointer' src={img2} alt="" />
+                <img className='cursor-pointer' src={img3} alt="" />
+                <img className='cursor-pointer' src={img4} alt="" />
+                <img className='cursor-pointer' src={img5} alt="" />
             </div>
         </div>
     );
