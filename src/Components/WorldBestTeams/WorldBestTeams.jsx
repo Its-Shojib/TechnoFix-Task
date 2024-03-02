@@ -22,6 +22,7 @@ const WorldBestTeams = () => {
                         </div>
                     </div>
                 </div>
+                
                 <div className="space-y-5">
                     <h1 className="text-[#050038] text-4xl font-bold">DocuSign</h1>
                     <p className="pb-20">“Miro helps solve one of the major gaps in product design: how to manage tasks across product designers whose projects are in different tools.”</p>
@@ -33,6 +34,7 @@ const WorldBestTeams = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="space-y-5">
                     <h1 className="text-[#050038] text-4xl font-bold">frog</h1>
                     <p className="pb-12">“As we used Miro we moved from skepticism to belief to innovation, and now we have a tool that’s at the core of what we do and will continue to extend into the future.”</p>
