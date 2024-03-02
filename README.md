@@ -1,8 +1,8 @@
-# [Miro | Home](https://milon-mela-matrimony.netlify.app)
+# [Miro | Home](https://miro-tech.netlify.app)
 
 
 # Live Link: 
-   [Click Here](https://milon-mela-matrimony.netlify.app)
+   [Click Here](https://miro-tech.netlify.app)
 
 # Overview of Components:
 
